@@ -1,31 +1,26 @@
 <?php
 	
-require __DIR__ . '/vendor/autoload.php';
+namespace App;
 
 class PrimeFactors{
 	public function generate(int $num){
-		
-		//Getting the Prime Factors from 1 to n
-		$prime = [2,3,4,5,7];
-		
+		$numsqrt = floor(sqrt($num));
+		$prime = [2];
 		$primefactor = [];
+			
+		for($j = 3; $j<=$numsqrt; $j+=2){
+			$prime[] = $j;
+		}
+		$n = count($prime);
 		
-		for($i = 0; $i < 5; $i++){
-			while(($num%$prime[$i]) == 0){
-				$num/=$prime[$i];
+		for($i = 0; $i < $n; $i++){
+			while(($num % $prime[$i]) == 0){
+				$num /= $prime;
 				$primefactor[] = $prime[$i];
 			}
 		}
-		
-		if($num != 1){
-			$primefactor[] = $num;
-		}
-		
 		//Returning an array of prime factors
 		return array_unique($primefactor);
 	}
-	
-	
-	
 }
 ?>
