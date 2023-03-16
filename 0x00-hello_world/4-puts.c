@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/*
-*The function main is to print out a string
-*/
+/**
+ * main - Entry point
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
-int puts(const char* "Programming is like building a multilingual puzzle\n");
-//puts();
+    int puts(const char* "Programming is like building a multilingual puzzle\n");
 
-return (0);
+    return (0);
 }
