@@ -7,14 +7,15 @@
  */
 int main(void)
 {
-char val;
-val = 'a';
-while(val <= 'z'){
-    putchar(val);
-    val++;
-}
+    char val;
+    val = 'a';
 
-printf("\n");
+    while(val <= 'z'){
+        putchar(val);
+        val++;
+    }
 
-return (0);
+    printf("\n");
+
+    return (0);
 }
