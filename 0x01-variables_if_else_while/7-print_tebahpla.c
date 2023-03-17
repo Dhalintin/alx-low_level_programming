@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Return: Always (0)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-    char val;
+	char i;
 
-    val = 'z';
-    while(val >= 'a'){
-        putchar(val);
-    }
-
-    printf("\n");
-
+	i = 'z';
+	while (i >= 'a')
+	{
+		putchar(i);
+		i--;
+	}
+gputchar('\n');
 	return (0);
 }

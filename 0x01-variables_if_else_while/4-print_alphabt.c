@@ -1,29 +1,27 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
- *
- * Return: Always (0)
+ * main - Entry point
+ * Description - print exception
+ * Return: Always (success)
  */
 int main(void)
 {
-    char val;
+	char low;
 
-    val = 'a';
-    while(val <= 'z'){
-        if(val != 'q' || val != 'e'){
-            putchar(val);
-        }
-    }
-
-    val = 'A';
-    while(val <= 'Z'){
-        if(val != 'Q' || val != 'E'){
-            putchar(val);
-        }
-    }
-
-    printf("\n");
-    
+	low = 'a';
+	while (low <= 'z')
+	{
+		if ((low != 'e') && (low != 'q'))
+		{
+			putchar(low);
+			low++;
+		}
+		else
+		{
+			low++;
+		}
+	}
+	putchar('\n');
 	return (0);
 }
