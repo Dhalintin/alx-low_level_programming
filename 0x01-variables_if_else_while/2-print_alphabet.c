@@ -7,16 +7,14 @@
  */
 int main(void)
 {
-    char val;
-
-    val = 'a';
-    while(val <= 'z'){
-        putchar(val);
-        val++;
-    }
-
-    printf("\n");
-
-	return (0);
+char val;
+val = 'a';
+while(val <= 'z'){
+    putchar(val);
+    val++;
 }
 
+printf("\n");
+
+return (0);
+}
