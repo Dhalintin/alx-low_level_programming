@@ -1,1 +1,2 @@
-#This is the dcumentation for this roject
+#This is a C project at ALX
+##It contains tasks meant to help improve in learning C
