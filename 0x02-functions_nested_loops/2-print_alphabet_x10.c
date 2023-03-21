@@ -11,11 +11,11 @@ int i = 0;
 
 while (i <= 10){
 
-char j = 'a';
-while (i < 'z'){
-puts(i);
+char charc = 'a';
+while (charc < 'z'){
+putchar(i);
 }
-puts("\n")
+putchar("\n")
 }
 
 }
