@@ -14,14 +14,14 @@ if(n < 98){
         putchar(i);
         i++;
     }
-    putchar("\n")
+    //putchar("\n")
 }else if(n > 98){
     int i = 98;
     while(i <= 98){
         putchar(i);
         i--;
     }
-    putchar("\n");
+    //putchar("\n");
 }else{
     putchar(n);
 }
