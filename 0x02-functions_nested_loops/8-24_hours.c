@@ -1,31 +1,22 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
-* main - Entry point
-* Return: Always 0 (success)
-*/
+ * jack_bauer - prints every minite of the day of jack bauer
+ *
+ */
+void jack_bauer(void)
+{
+	int hour, minutes;
 
-
-void jack_bauer(void){
-int i = 0;
-int j = 0;
-while(i < 60){
-if(i < 10){
-while(j < 60){
-if(j < 10){
-printf("0%d:0%d", i, j);
-}else{
-printf("0%d:%d", i, j);
-} 
-}
-}else{
-while(j < 60){
-if(j < 10){
-printf("%d:0%d", i, j);
-}else{
-printf("%d:%d", i, j);
-} 
-}
-}
-}
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (minutes = 0; minutes <= 59; minutes++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minutes / 10) + '0');
+			_putchar((minutes % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }

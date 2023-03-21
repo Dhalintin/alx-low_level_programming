@@ -1,13 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _abs - computes the absolute value of an integer
+ *@n: integer
+ * Return: Absolute value of the integer.
  */
-
-
-int _abs(int c){
-    
-    return abs(c);
+int _abs(int n)
+{
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }

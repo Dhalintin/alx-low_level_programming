@@ -1,11 +1,11 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Entry point
- * This function adss two numbers
- * Return: Always 0 (success)
+ * add - adds two integers and returns the results
+ * @a: input
+ * @b: input
+ * Return: result
  */
-
-int add(int n, int m){
-    return (n + m);
+int add(int a, int b)
+{
+	return (a + b);
 }

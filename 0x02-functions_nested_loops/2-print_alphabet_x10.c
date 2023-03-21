@@ -1,21 +1,20 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet_x10 - Entry point
+ * Description - prints 10 times the alphabet
+ * Return: Always 0
  */
+void print_alphabet_x10(void)
+{
+	int count = 1;
+	char letter;
 
-void print_alphabet_x10(void){
-char i = 0;
-
-while (i <= 10){
-
-char charc = 'a';
-while (charc < 'z'){
-putchar(i);
-}
-putchar('\n');
-}
-
+	while (count++ <= 10)
+	{
+		for (letter = 'a'; letter <= 'z'; letter++)
+		{
+			_putchar(letter);
+		}
+		_putchar('\n');
+	}
 }
