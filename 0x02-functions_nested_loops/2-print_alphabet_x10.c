@@ -13,7 +13,7 @@ while (i <= 10){
 
 char j = 'a';
 while (i < 'z'){
-puts("%c\n", i);
+puts(i);
 }
 puts("\n")
 }
