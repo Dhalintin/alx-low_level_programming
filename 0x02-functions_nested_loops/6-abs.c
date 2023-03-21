@@ -6,14 +6,8 @@
  * Return: Always 0.
  */
 
-int main(void)
-{
-    int _abs(int c){
-       
-        return abs(c);
-    }
+
+int _abs(int c){
     
-
-
-return (0);
+    return abs(c);
 }

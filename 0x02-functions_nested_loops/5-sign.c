@@ -6,8 +6,7 @@
  * Return: Always 0.
  */
 
-int main(void)
-{
+
 int sign(int c){
 if(isdigit(c)){
 if(c < 0){
@@ -22,9 +21,4 @@ return 1;
 
 return 0;
 
-}
-    
-
-
-return (0);
 }

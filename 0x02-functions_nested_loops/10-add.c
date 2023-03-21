@@ -6,11 +6,6 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
-{
 int add(int n, int m){
     return (n + m);
-}
-
-return (0);
 }

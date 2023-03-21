@@ -5,8 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
-{
+
 void print_alphabet_x10(void){
 int i = 0;
 
@@ -19,7 +18,4 @@ puts("%c\n", i);
 puts("\n")
 }
 
-}
-
-return (0);
 }

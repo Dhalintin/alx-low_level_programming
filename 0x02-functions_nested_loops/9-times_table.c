@@ -5,16 +5,11 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
-{
 void times_table(void){
-    for(int i = 0; i <= 9; i++){
-        for(int j = 0; j <= 9; j++){
-            printf(i * j);
-        }
-        printf("\n")
-    }
+for(int i = 0; i <= 9; i++){
+for(int j = 0; j <= 9; j++){
+printf(i * j);
 }
-
-return (0);
+printf("\n")
+}
 }
