@@ -21,6 +21,6 @@ if(n < 98){
         i--;
     }
 }else{
-    printf("98");
+    printf(98);
 }
 }
