@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include main.h
+#include "main.h"
 
 /**
 * main - check the code
@@ -10,9 +10,9 @@
 void print_alphabet(void){
 char i = 'a';
 while (i < 'z'){
-_putchar("\"%c", i);
+putchar("\"%c", i);
 }
-_putchar("\n");
+putchar("\n");
 }
 
 
