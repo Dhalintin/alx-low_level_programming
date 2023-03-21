@@ -11,16 +11,16 @@ void print_to_98(int n){
 if(n < 98){
     int i = n;
     while(i <= 98){
-        putchar(i);
+        printf("%d", i);
         i++;
     }
 }else if(n > 98){
     int i = 98;
     while(i <= 98){
-        putchar(i);
+        printf("%d", i);
         i--;
     }
 }else{
-    putchar(n);
+    printf(n);
 }
 }
