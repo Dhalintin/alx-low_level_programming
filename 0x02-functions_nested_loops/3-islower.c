@@ -1,3 +1,4 @@
+#include <stdio>
 #include "main.h"
 /**
  * _islower - Entry point
