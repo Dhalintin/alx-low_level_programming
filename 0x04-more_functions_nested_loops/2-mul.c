@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
 * main - check the code.
 *@a: first value
@@ -9,6 +8,5 @@
 */
 int mul(int a, int b)
 {
-
-return (a * b);
+return(a * b);
 }
