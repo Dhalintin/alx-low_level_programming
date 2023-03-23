@@ -3,11 +3,12 @@
 
 /**
 * main - check the code.
-*
-* Return: Always 0.
+*@a: first value
+*@b: second value
+* Return: the product of the two values.
 */
 int mul(int a, int b)
 {
-int result = a * b;
-return (result);
+
+return (a * b);
 }
