@@ -10,14 +10,18 @@ void print_triangle(int size)
 {
 int i;
 if(size >= 0){
-for(i = 1; i <= size; i++){
-for(j = 1; j <= size; j++){
-if((i + j) >= size){
-_putchar('#');
-}else{
+for (hash = 1; hash <= size; hash++)
+{
+for (index = size - hash; index > 0; index--)
 _putchar(' ');
-}
-}
+
+for (index = 0; index < hash; index++)
+_putchar('#');
+
+if (hash == size)
+continue;
+
+_putchar('\n');
 }
 }
 _putchar('\n');
