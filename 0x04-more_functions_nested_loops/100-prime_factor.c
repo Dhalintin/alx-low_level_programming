@@ -11,12 +11,13 @@ int main(void)
 long prime = 612852475143, div;
 
 
+
 for (div = 2; div < (prime / 2); div += 2)
 {
 if ((prime % div) == 0)
 prime /= div;
 }
-}
+
 
 printf("%ld\n", prime);
 
