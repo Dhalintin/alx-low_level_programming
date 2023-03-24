@@ -16,5 +16,5 @@ num /= i;
 }
 }
 
-_putchar(num);
+printf(num);
 }
