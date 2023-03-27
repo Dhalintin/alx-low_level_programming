@@ -2,7 +2,8 @@
 
 /** 
 *This function takes a ponter n
-* @*n
+* @n: length of array
+* @a: array
 *and Updates the value to 98 
 */
 

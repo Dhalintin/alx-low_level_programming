@@ -2,9 +2,9 @@
 
 /**
 *This function takes a ponter n
-*@_strcpy function
-*@dest where string is copied to
-@src string is copied from
+*@_strcpy: function
+*@dest: where string is copied to
+@src: string is copied from
 *and Updates the value to 98
 */
 

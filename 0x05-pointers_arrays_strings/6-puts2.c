@@ -3,7 +3,7 @@
 
 /**
 *This function takes a ponter n
-* @*n
+*@str: string to be 
 *and prints everyother character starting folllowed by a new line 
 */
 

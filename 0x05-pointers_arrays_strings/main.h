@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 char *_strcpy(char *dest, char *src);
 void print_array(int *a, int n);

@@ -3,7 +3,7 @@
 
 /**
 *This function takes a string
-*@s
+*@s: string to be 
 *and reverses it
 */
 

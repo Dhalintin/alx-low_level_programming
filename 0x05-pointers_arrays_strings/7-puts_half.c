@@ -1,10 +1,10 @@
 #include "main.h"
 #include <string.h>
 
-/** 
+/**
 *This function takes a ponter n
-* @*n
-*and Updates the value to 98 
+* @str: string to be
+*printed partially
 */
 
 void puts_half(char *str)

@@ -2,7 +2,7 @@
 
 /**
 *This function takes a value
-*@str
+*@str: string to be counted
 *and prints it out 
 */
 
