@@ -2,10 +2,10 @@
 
 /**
 *This function takes a ponter n
-* @_strcpy
+*@strcpy
 *@dest
 @src
-*and Updates the value to 98 
+*and Updates the value to 98
 */
 
 char *_strcpy(char *dest, char *src)
