@@ -8,7 +8,7 @@
 
 void puts2(char *str)
 {
-int len = strlen(s);
+int len = strlen(str);
 for (int i = 0; i < len; i += 2) {
 printf("%c", s[i]);
 }
