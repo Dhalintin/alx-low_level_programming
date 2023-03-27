@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *This swap_int funtion takes two parameters
 *@a
@@ -12,5 +11,4 @@ void swap_int(int *a, int *b)
 int temp = *a;
 *a = *b;
 *b = temp;
-
 }
