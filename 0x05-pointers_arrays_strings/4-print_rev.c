@@ -1,7 +1,8 @@
 #include "main.h"
 #include <string.h>
 
-/** This function takes a value
+/**
+*This function takes a value
 *@s
 *and prints it in reverse order
 */

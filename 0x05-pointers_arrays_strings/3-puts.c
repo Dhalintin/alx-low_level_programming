@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** This function takes a value
+/**
+*This function takes a value
 *@str
 *and prints it out 
 */
