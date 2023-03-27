@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** This function takes a ponter n
+/** 
+*This function takes a ponter n
 * @*n
 *and Updates the value to 98 
 */
