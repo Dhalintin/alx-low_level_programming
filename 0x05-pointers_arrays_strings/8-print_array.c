@@ -1,11 +1,10 @@
 #include "main.h"
-
-/** 
-*This function takes a ponter n
-* @n: length of array
-* @a: array
-*and Updates the value to 98 
-*/
+#include <stdio.h>
+/**
+ * print_array - prints m elements of an array of integers
+ * @a: elements
+ * @n: number of elements
+ */
 
 void print_array(int *a, int n)
 {
