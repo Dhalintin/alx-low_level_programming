@@ -1,19 +1,17 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
-
 /**
-*This function takes a ponter n
-*@str: string to be 
-*and prints everyother character starting folllowed by a new line 
+* puts2 - prints every other character of a string
+* @str: peremeter
 */
-
 void puts2(char *str)
 {
-int len = strlen(str);
-for (int i = 0; i < len; i += 2) {
-printf("%c", str[i]);
-}
-printf("\n");
+int index = 0, len = 0;
 
+while (str[index++])
+len++;
+
+for (index = 0; index < len; index += 2)
+_putchar(str[index]);
+
+_putchar('\n');
 }

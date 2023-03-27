@@ -1,20 +1,20 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
-
 /**
-*This function takes a string
-*@s: string to be 
-*and reverses it
+*rev_string - reversing a string
+*@s: peremeter
 */
-
 void rev_string(char *s)
 {
-int len = strlen(s);
-for (int i = 0; i < len / 2; i++) {
-char temp = s[i];
-s[i] = s[len - 1 - i];
-s[len - 1 - i] = temp;
-}
+int len = 0, index = 0;
+char tmp;
 
+while (s[index++])
+len++;
+
+for (index = len - 1; index >= len / 2; index--)
+{
+tmp = s[index];
+s[index] = s[len - index - 1];
+s[len - index - 1] = tmp;
+}
 }

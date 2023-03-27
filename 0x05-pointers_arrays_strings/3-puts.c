@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
-*This function takes a value
-*@str: string to be counted
-*@_puts: prints strings
-*and prints it out
-*/
-
+ *_puts - Prints a string to stdout.
+ *@str: The string to be printed.
+ */
 void _puts(char *str)
 {
 printf("%s\n", str);

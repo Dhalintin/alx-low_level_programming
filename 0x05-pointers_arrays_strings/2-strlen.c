@@ -1,13 +1,10 @@
 #include "main.h"
-#include <string.h>
-
+#include <stddef.h>
 /**
-*This function takes a value
-*@_strlen: takes a string
-*@s: string to be counted
-*and returns the length
-*/
-
+ *_strlen - get the length of a string
+ *@s: string pointer to pass to this function
+ * Return: The length of *s
+ */
 int _strlen(char *s)
 {
 return (strlen(s));

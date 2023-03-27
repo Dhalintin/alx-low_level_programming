@@ -1,19 +1,23 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
-
 /**
-*This function takes a ponter n
-* @str: string to be
-*printed partially
+* puts_half - prints half of a string
+* @str: peremeter
 */
-
 void puts_half(char *str)
 {
-int length = strlen(str);
-int start_index = (length % 2 == 0) ? length / 2 : (length + 1) / 2;
-for (int i = start_index; i < length; i++) {
-printf("%c", str[i]);
-}
-printf("\n");
+int index = 0, len = 0, n;
+
+while (str[index++])
+len++;
+
+if ((len % 2) == 0)
+n = len / 2;
+
+else
+n = (len + 1) / 2;
+
+for (index = n; index < len; index++)
+_putchar(str[index]);
+
+_putchar('\n');
 }
