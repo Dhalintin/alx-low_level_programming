@@ -3,7 +3,7 @@
 
 /**
 *This function takes a value
-* @s
+*s string to be counted
 *and returns the length 
 */
 
