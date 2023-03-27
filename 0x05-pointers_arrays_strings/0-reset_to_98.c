@@ -1,9 +1,8 @@
 #include "main.h"
-
 /** 
-*Reset_to_98 takes a pointer
+*@0-reset_to_98 takes a pointer
 *@n
-*and Updates the value to 98 
+*and Updates the value to 98
 */
 
 void reset_to_98(int *n)

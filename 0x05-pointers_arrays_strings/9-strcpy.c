@@ -2,7 +2,7 @@
 
 /**
 *This function takes a ponter n
-*@strcpy function
+*@_strcpy function
 *@dest where string is copied to
 @src string is copied from
 *and Updates the value to 98
