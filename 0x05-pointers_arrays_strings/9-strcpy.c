@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
-*This function takes a ponter n
-*@_strcpy: function
-*@dest: where string is copied to
-@src: string is copied from
-*and Updates the value to 98
-*/
-
+ * _strcpy - copies the string pointed to by src
+ * @dest: destination to which string is copied to
+ * @src: source string to be copy
+ * Return: Pointer to the destination string
+ */
 char *_strcpy(char *dest, char *src)
 {
 int i = 0;
