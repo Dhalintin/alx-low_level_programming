@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** This function takes a ponter n
-* @*n
-*and Updates the value to 98 
+/** This swap_int funtion takes two parameters
+*@a
+*@b
+*and swaps them
 */
 
 void swap_int(int *a, int *b)

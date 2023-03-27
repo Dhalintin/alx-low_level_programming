@@ -1,13 +1,13 @@
 #include "main.h"
 #include <string.h>
 
-/** This function takes a ponter n
-* @*n
-*and Updates the value to 98 
+/** This function takes a value
+* @s
+*and returns the length 
 */
 
 int _strlen(char *s)
 {
-    return strlen(s);
+return strlen(s);
 
 }

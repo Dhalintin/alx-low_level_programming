@@ -1,12 +1,12 @@
 #include "main.h"
 
-/** This function takes a ponter n
-* @*n
-*and Updates the value to 98 
+/** This function takes a value
+*@str
+*and prints it out 
 */
 
 void _puts(char *str)
 {
-    printf("%s\n", str);
+printf("%s\n", str);
 
 }
