@@ -3,6 +3,7 @@
 /**
 *This function takes a value
 *@str: string to be counted
+*@_puts: prints strings
 *and prints it out
 */
 
