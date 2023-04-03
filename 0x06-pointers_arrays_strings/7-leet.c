@@ -26,7 +26,7 @@ result[i] = '7';
 
 }else if if(str[i] == 'l' || str[i] == 'L')
 {
-result[i] = '1';
+result[i] = '1';git 
 
 }
 }
