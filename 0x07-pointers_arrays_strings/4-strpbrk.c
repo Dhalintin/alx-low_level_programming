@@ -2,9 +2,9 @@
 
 /**
 *@_strpbrk: function that takes 2 parameter
-*@s: string to be searched for
-*@accept: string to be searched
-*Returns a pointer to s or null 
+* @s: pointer
+* @accept: character
+* Return: byte or NULL 
 */
 
 char *_strpbrk(char *s, char *accept)
@@ -20,10 +20,10 @@ if(s[i] == accept[j])
 break;
 }
 }
+
 if(accept[j])
 {
 return (s + i); 
 }
-
 return (0); 
 }
