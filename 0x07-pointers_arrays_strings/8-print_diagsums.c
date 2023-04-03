@@ -1,8 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *@print_chessboard: function that takes 2 parameter
 *@a: array
+*@size: size of array
 *Prints a the values in the 2D array
 */
 
@@ -23,7 +25,7 @@ break;
 
 for(i = 0; i < size; i++)
 {
-for(j = 0; j < size; j++)
+for(j = size; j >= 0; j--)
 {
 if((i + j + 1) == size){
 sum2 += a[i][j];
@@ -31,5 +33,5 @@ break;
 }
 }
 }
-printf("%d, %d", sum1, sum2);
+printf("%d, %d\n", sum1, sum2);
 }
