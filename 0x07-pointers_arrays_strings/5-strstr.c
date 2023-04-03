@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
-*@_strstr: function that takes 2 parameter
-*@neddle: string to be searched for
-*@haystack: string to be searched
-*Returns a pointer to substring or null 
+* _strstr - function that locates a string
+* @haystack: string
+* @needle: string
+* Return: substring or NULL
 */
-
 char *_strstr(char *haystack, char *needle)
 {
 unsigned int i = 0, a = 0;
@@ -29,5 +27,4 @@ else
 return (haystack + i);
 }
 return (0);
-
 }

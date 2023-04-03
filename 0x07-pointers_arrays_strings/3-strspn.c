@@ -1,30 +1,23 @@
 #include "main.h"
-
 /**
-*@_strspn: is the function that takes 3 parameter
-*@s: initial string
-*@accept: bytes to search for
-*Returns the number of bytes i or null
+* _strspn - function that gets length of a prefix substring
+* @s: pointer
+* @accept: charecter
+* Return: number of byte
 */
-
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int i, j;
+unsigned int i, a;
 
-for(i = 0; s[i]; i++)
+for (i = 0; s[i]; i++)
 {
-for(j =0; accept[j]; j++)
+for (a = 0; accept[a]; a++)
 {
-if(s[i] == accept[j])
-{
+if (s[i] == accept[a])
 break;
 }
-}
-if(!accept[j])
-{
+if (!accept[a])
 break;
 }
-}
-
 return (i);
 }

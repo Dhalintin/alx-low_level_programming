@@ -1,13 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
-*@print_chessboard: function that takes 2 parameter
-*@a: integer
-*@size: size of array
-*Prints a the values in the 2D array
+* print_diagsums - function that prints the sum of the two diaginals.
+* @a: integer
+* @size: size
 */
-
 void print_diagsums(int *a, int size)
 {
 int i, sum1 = 0, sum2 == 0;
