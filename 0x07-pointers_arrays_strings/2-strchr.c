@@ -1,23 +1,18 @@
 #include "main.h"
-
 /**
-*@_strchr: is the function that takes 3 parameter
-*@s: string to be search
-*@c: character to be searched for
-*Returns dest
+* *_strchr - function that locates a character in a string.
+* @s: string to be checkd
+* @c: character to be searched for
+* Return: a pointer or NULL 
 */
-
 char *_strchr(char *s, char c)
 {
-int i;
+int a;
 
-for(i = 0; s[i] >= '\0' i++) 
+for (a = 0; s[a] >= '\0'; a++)
 {
-if(s[i] == c)
-{
-    return (s + c);
+if (c == s[a])
+return (s + a);
 }
 return ('\0');
-}
-
 }
