@@ -5,24 +5,30 @@
 *@n: integer  value
 *
 *Return: natural square root or -1
-*_perfect_square: finds the perfect square
-*@i: integer value
 */
+
 
 int _perfect_square(int i, int n)
 {
 if ((i * i) == n)
-{
+
 return (i);
-}
-else if ((i * i) > n )
+
+else if ((i * i) > n)
 {
 return (-1);
-} else {
+}
+else
+{
 return (_perfect_square(i + 1, n));
 }
 
 }
+
+/**
+*_perfect_square: finds the perfect square
+*@i: integer value
+*/
 int _sqrt_recursion(int n)
 {
 
