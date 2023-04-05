@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*factorial is a function that takes
+*factorial: is a function that takes
 *@n: integer
-* and recursively return factorial
+* Reurn: factorial of n
 */
 
 

@@ -26,16 +26,15 @@ return 1;
 return is_divisible(n, i+1);
 }
 
-
 int is_prime_number(int n)
 {
 if (n < 2)
-{
-return 0;
-}
+
+return (0);
+
 if (n == 2 || n == 3)
 {
-return 1;
+return (1);
 }
-return !is_divisible(n, 2);
+return (!is_divisible(n, 2));
 }
