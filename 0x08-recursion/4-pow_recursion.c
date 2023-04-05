@@ -3,17 +3,17 @@
 *_pow_recursion is a function that takes
 *@x: an integer to be multiplied
 *@y: number of times
-*Returns an integer
+*Return: an integer res
 */
 
 int _pow_recursion(int x, int y)
 {
 int res = x;
-if(y < 0)
+if (y < 0)
 {
 return (-1);
 }
-if(y == 0)
+if (y == 0)
 {
 return (1);
 }
