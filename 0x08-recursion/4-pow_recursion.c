@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*pow_recursion: is a function that takes
+*_pow_recursion: is a function that takes
 *@x: an integer to be multiplied
 *@y: number of times
 *Return: an integer res

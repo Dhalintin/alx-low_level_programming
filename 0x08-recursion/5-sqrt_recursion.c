@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
-* _sqrt_recursion: a function that take
+* _sqrt_recursion - a function that take
 *@n: integer  value
 *
 *Return: natural square root or -1
 */
-
+/**
+*_perfect_square - finds the perfect square
+*@i: integer value
+*/
 
 int _perfect_square(int i, int n)
 {
@@ -24,11 +27,6 @@ return (_perfect_square(i + 1, n));
 }
 
 }
-
-/**
-*_perfect_square: finds the perfect square
-*@i: integer value
-*/
 int _sqrt_recursion(int n)
 {
 

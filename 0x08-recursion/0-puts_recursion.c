@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*puts_recursion: is afunction that takes
+*_puts_recursion - is afunction that takes
 *@s: string
 * print: the string  recursively
 */
