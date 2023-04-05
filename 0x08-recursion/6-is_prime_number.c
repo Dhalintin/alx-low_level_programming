@@ -14,14 +14,13 @@
 */
 int is_divisible(int n, int i)
 {
-if (i * i > n) {
-return 0;
-}
+if (i * i > n)
+return (0);
+
 
 if (n % i == 0)
-{
-return 1;
-}
+return (1);
+
 
 return is_divisible(n, i+1);
 }
@@ -33,8 +32,8 @@ if (n < 2)
 return (0);
 
 if (n == 2 || n == 3)
-{
+
 return (1);
-}
+
 return (!is_divisible(n, 2));
 }
