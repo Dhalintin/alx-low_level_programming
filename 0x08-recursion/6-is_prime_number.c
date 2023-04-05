@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*is_divisible - is function that takes
+* is_divisible - is function that takes
 * @n: integer
 * @i: integer
 * Returns if n is divisible by any value of i

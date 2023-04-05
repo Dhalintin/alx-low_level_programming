@@ -7,8 +7,8 @@
 *Return: natural square root or -1
 */
 /**
-*_perfect_square - finds the perfect square
-*@i: integer value
+* _perfect_square - finds the perfect square
+* @i: integer value
 */
 
 int _perfect_square(int i, int n)
