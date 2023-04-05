@@ -14,7 +14,7 @@ return (i);
 }
 else if ((i * i) > n )
 {
-return (-1)
+return (-1);
 }else{
 return (_perfect_square(i + 1, n));
 }
