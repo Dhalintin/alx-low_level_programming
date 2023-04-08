@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
-*This program prints all the vlaues of argv
+*main - program prints all the vlaues of argv
 *@argc: argc paramenter
 *@argv: argv parameter 
-*Returns: sum or 1
+*Returns: sucess
 */
 
 
