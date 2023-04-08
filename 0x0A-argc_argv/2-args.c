@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 
 /**
-*main - program prints all the vlaues of argv
-*@argc: argc paramenter
-*@argv: argv parameter 
-*Returns: sucess
+* main - program that prints all arguments it receives.
+* @argc: parameter
+* @argv: parameter
+* Return: success
 */
 
 
-int main(int argc __attribute__((unused)), char* argv[])
+int main(int argc, char* argv[])
 {
 int i;
 for(i = 0; i < argc; i++)
