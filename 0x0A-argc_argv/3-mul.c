@@ -9,10 +9,15 @@
 */
 int main(int argc, char *argv[])
 {
-int mult;
+int a, b, mult;
+
 if(argc == 3)
 {
-mult = atoi(argv[1]) * atoi(argv[2]);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+
+mult = a * b;
+
 printf("%d\n" mult);
 return(0);
 }
