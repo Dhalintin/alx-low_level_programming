@@ -7,7 +7,7 @@
 *@argv: argv parameter
 *Returns: sum or 1
 */
-int main(int argc __attribute__((unused)), char* argv())
+int main(int argc __attribute__((unused)), char* argv[])
 {
 int mult;
 if(argc == 3)
