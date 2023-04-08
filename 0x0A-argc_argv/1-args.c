@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
-*This program takes
-*@argc: and 
-*@argv: and prints the number of argv
+*This program prints the number of argv
+*@argc: argc paramenter
+*@argv: argv parameter 
 *Returns:0
 */
 
 
-int main(int argc, char* argv())
+int main(int argc __attribute__((unused)), char* argv())
 {
 printf("%d\n", argc - 1 );
 return (0);

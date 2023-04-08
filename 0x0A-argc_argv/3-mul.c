@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
-*This program takes
-*@argc: and 
-*@argv: and prints out the product of the two  numbers
+*This program prints out the product of the two  numbers
+*@argc: argc paramenter
+*@argv: argv parameter
 *Returns: sum or 1
 */
-int main(int argc, char* argv())
+int main(int argc __attribute__((unused)), char* argv())
 {
 int mult;
 if(argc == 3)

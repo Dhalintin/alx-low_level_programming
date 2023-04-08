@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
-*This program takes
-*@argc: and 
-*@argv: and prints all the vlaues of argv
+*This program prints all the vlaues of argv
+*@argc: argc paramenter
+*@argv: argv parameter 
 *Returns: sum or 1
 */
 
 
-int main(int argc, char* argv())
+int main(int argc __attribute__((unused)), char* argv())
 {
 int i;
 for(i = 0; i < argc; i++)

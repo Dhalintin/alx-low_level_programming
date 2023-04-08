@@ -3,14 +3,14 @@
 #include <ctype.h>
 
 /**
-*This program takes
-*@argc: and 
-*@argv: and sums up all the positive integer
+*This program sums up all the positive integer
+*@argc: argc paramenter
+*@argv: argv parameter 
 *Returns: 0 or 1
 */
 
 
-int main(int argc, char* argv[])
+int main(int argc __attribute__((unused)), char* argv[])
 {
 int i, sum =0;
 
