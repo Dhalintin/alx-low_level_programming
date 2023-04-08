@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * print_alphabet - Entry point
  * Description - prints the alphabet in lowercase, followed by new line.
