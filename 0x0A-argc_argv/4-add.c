@@ -1,34 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
-*This program sums up all the positive integer
-*@argc: argc paramenter
-*@argv: argv parameter 
-*Returns: 0 or 1
+* main - adds numbers
+* @argc: number of arguments passed to the function
+* @argv: argument vector of pointers to strings
+*
+* Return: 0 if no errors, else 1
 */
-
-
 int main(int argc, char *argv[])
 {
-int i, sum =0;
+int numA, numB, sum = 0;
 
-for(i = 1; i < argc; i++)
+for (numA = 1; numA < argc; numA++)
 {
-if(isdigit(argv[i]))
-{ 
-if(argv[i] > 0)
+for (numB = 0; argv[numA][numB]; numB++)
 {
-sum += argv[i];
-}
-} else
+if (argv[numA][numB] < '0' || argv[numA][numB] > '9')
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 }
 
-printf("%d\n", sum)
-return(0);
+sum += atoi(argv[numA]);
+}
+
+printf("%d\n", sum);
+
+return (0);
 }

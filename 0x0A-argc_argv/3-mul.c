@@ -2,28 +2,24 @@
 #include <stdlib.h>
 
 /**
-*This program prints out the product of the two  numbers
-*@argc: argc paramenter
-*@argv: argv parameter
-*Returns: sum or 1
+* main - program that multiplies two numbers
+* @argc: number of arguments passed to the function
+* @argv: argument vector of pointers to strings
+* Return: 0 if no errors, else 1
 */
 int main(int argc, char *argv[])
 {
-int a, b, mult;
+int mult, a, b;
 
-if(argc == 3)
+if (argc != 3)
 {
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-
-mult = a * b;
-
-printf("%d\n" mult);
-return(0);
-}
-else 
-{
-printf("Error");
+printf("%s\n", "Error");
 return (1);
 }
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+mult = a * b;
+
+printf("%d\n", mult);
+return (0);
 }
