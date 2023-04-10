@@ -13,7 +13,7 @@ int mult, a, b;
 
 if (argc != 3)
 {
-printf("%s\n", "Error");
+printf("Error \n");
 return (1);
 }
 a = atoi(argv[1]);
