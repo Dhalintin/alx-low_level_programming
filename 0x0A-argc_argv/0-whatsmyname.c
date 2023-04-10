@@ -5,6 +5,7 @@
 *This function prints the name of the file
 *@argc: argc paramenter
 *@argv: argv parameter
+*@_attribute__((unused)): used for
 *Returns: 0
 */
 
