@@ -5,6 +5,7 @@
 *Main - prints the number of argv
 *@argc: argc paramenter
 *@argv: argv parameter 
+*@_attribute__((unused)): used for
 *Returns:0
 */
 
