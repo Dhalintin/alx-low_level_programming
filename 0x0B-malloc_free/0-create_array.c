@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
 *create_array is a function that 
@@ -20,7 +21,7 @@ a = malloc(size * sizeof(c))
 
 if(a == NULL)
 {
-    return NULL;
+return NULL;
 }
 
 for(i = 0; i < size;i++)
