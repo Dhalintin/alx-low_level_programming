@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* *create_array is a function that 
+* *create_array - is a function that 
 *@size: size of the array
 *@c: char to iniitialize the array
 *Return: Pointer or Null
@@ -14,17 +14,18 @@ unsigned int i;
 char *a;
 
 
-if(size === 0){
-return NULL;
+if(size === 0)
+{
+return (NULL);
 }
 a = malloc(size * sizeof(c))
 
 if(a == NULL)
 {
-return NULL;
+return (NULL);
 }
 
-for(i = 0; i < size;i++)
+for(i = 0; i < size; i++)
 {
 a[i] = c;
 }
