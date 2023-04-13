@@ -1,18 +1,16 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
-* malloc_unchecked: is a function that takes an integer 
-* @b: integer value and
-* Return: pointer 
+* malloc_checked - function that allocates memory using malloc.
+* @b: integer
+* Return: pointer to the allocated memory.
 */
-
 void *malloc_checked(unsigned int b)
 {
-void *c;
-c = malloc(b);
-if(c == null)
-exit(98);
+void *a;
 
-return (c);
+a = malloc(b);
+if (a == NULL)
+exit(98);
+return (a);
 }
