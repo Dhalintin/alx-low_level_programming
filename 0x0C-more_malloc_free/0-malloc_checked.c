@@ -14,5 +14,5 @@ c = malloc(b)
 if(c == null)
 exit(98);
 
-return (*b)
+return (c)
 }
