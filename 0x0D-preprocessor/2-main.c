@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 *Main - prints the name of the file it was complied with
@@ -7,6 +8,6 @@
 
 int main()
 {
-printf("%s\n",_FILE_);
+printf("%s\n", _FILE_);
 return (0);
 }
