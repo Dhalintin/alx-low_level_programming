@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Main - prints the name of the file it was complied with
+*main - prints the name of the file it was complied with
 *
 *Return: success
 */
