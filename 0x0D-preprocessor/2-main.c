@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
 *Main - prints the name of the file it was complied with
-*Return: 0
+*
+*Return: success
 */
 
 int main()
 {
-printf("%s\n", _FILE_);
+printf("%s\n", __FILE__);
 return (0);
 }
