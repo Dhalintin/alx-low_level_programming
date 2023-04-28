@@ -18,7 +18,7 @@ return (i);
 
 /**
 * add_node - adds a node to the beginning of a linked list
-* @head: double pointer to a linked list
+* @head: double pointer to a lined list
 * @str: string to add to the new node
 *
 * Return: pointer to the new node
